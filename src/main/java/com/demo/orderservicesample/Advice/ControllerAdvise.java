@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ControllerAdvise {
     @ExceptionHandler(OrderNotFoundException.class)
     public ResponseEntity<String> getOrderNotFoundException(OrderNotFoundException e) {
-        return new ResponseEntity<>(e.getMessage(), HttpStatusCode.valueOf(400));
+        return new ResponseEntity<String>(e.getMessage(), HttpStatusCode.valueOf(400));
     }
 
 }
