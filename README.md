@@ -16,7 +16,7 @@ This project demonstrates:
     Clean separation of concerns using Controller, Service, Repository, and DTO layers.
 ⚙️ Tech Stack
 
-    Java 17 / Java 22
+    Java 22
     The primary programming language used for backend development and business logic.
 
     Spring Boot
@@ -119,7 +119,7 @@ Handle the case when the ProductService is down
 
 👨‍💻 Author
 
-Mohammad Aman
+**Handled by Mohammad Aman** ||
 Java Backend Developer | Spring Boot | MySQL | REST APIs
 📌 Building real-world APIs with clean code and solid architecture
 https://github.com/MohammadAman-Github
